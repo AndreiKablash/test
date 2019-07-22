@@ -3,23 +3,23 @@
 
 <generatorConfiguration>
     <!--Driver specified jar Location of packages,What I use is mysql -->
-    <classPathEntry location="C:\Users\HP\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar"/>
+    <classPathEntry location="C:\Users\HP\.m2\repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar"/>
 
     <context id="hello_mysql" targetRuntime="MyBatis3">
         <!-- Database Connection Information -->
-        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/hello_mysql?searchpath=myschema&amp;verifyServerCertificate=false&amp;useSSL=false&amp;requireSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/hello_mysql?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false"
                         userId="root"
-                        password="12121988Andr"/>
+                        password="root"/>
 
         <!--entity Entity class-->
-        <javaModelGenerator targetPackage="by.pvt.basic" targetProject="C:\Users\HP\IdeaProjects\lesson5\hellomysql\src\main\java"/>
+        <javaModelGenerator targetPackage="by.pvt.basic" targetProject="src\main\java"/>
 
         <!-- mybatis mapping xml file -->
-        <sqlMapGenerator targetPackage="by.pvt.config" targetProject="C:\Users\HP\IdeaProjects\lesson5\hellomysql\src\main\resources"/>
+        <sqlMapGenerator targetPackage="by.pvt.config" targetProject="src\main\resources"/>
 
         <!--mapper Interface -->
-        <javaClientGenerator targetPackage="by.pvt.mapper" targetProject="C:\Users\HP\IdeaProjects\lesson5\hellomysql\src\main\java" type="XMLMAPPER"/>
+        <javaClientGenerator targetPackage="by.pvt.mapper" targetProject="src\main\java" type="XMLMAPPER"/>
 
         <!--Data sheet-->
         <table schema="hello_mysql" tableName="system_users"/>

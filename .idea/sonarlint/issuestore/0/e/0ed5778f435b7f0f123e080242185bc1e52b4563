@@ -1,13 +1,13 @@
 
-dsquid:S1192"HDefine a constant instead of duplicating this literal "active" 10 times.(¡“¯í8ˆ„Ó¹¿-
-ksquid:S1192"JDefine a constant instead of duplicating this literal "username" 12 times.(×œÚşÿÿÿÿ8ˆ„Ó¹¿-
 isquid:S1192"MDefine a constant instead of duplicating this literal "dateofbirth" 10 times.(şšŸ£8ˆ„Ó¹¿-
-tsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe8ˆ„Ó¹¿-
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù8ˆ„Ó¹¿-
-|squid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì8ˆ„Ó¹¿-
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ8ˆ„Ó¹¿-
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ8ˆ„Ó¹¿-
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ8ˆ„Ó¹¿-
 bsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
 8ˆ„Ó¹¿-
+ksquid:S1192"JDefine a constant instead of duplicating this literal "username" 12 times.(×œÚşÿÿÿÿ8ˆ„Ó¹¿-
+|squid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì8ˆ„Ó¹¿-
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù8ˆ„Ó¹¿-
+dsquid:S1192"HDefine a constant instead of duplicating this literal "active" 10 times.(¡“¯í8ˆ„Ó¹¿-
 Ysquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Á½¼s8ˆ„Ó¹¿-
-_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ8ˆ„Ó¹¿-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ8ˆ„Ó¹¿-
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ8ˆ„Ó¹¿-
+tsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe8ˆ„Ó¹¿-

@@ -17,7 +17,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.12</version>
+            <version>5.1.46</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.dbunit</groupId>
             <artifactId>dbunit</artifactId>
-            <version>2.5.3</version>
+            <version>2.6.0</version>
             <scope>test</scope>
         </dependency>
 
@@ -83,10 +83,10 @@
                         <phase>process-sources</phase>
                         <configuration>
                             <changeLogFile>src\main\resources\changelog.xml</changeLogFile>
-                            <url>jdbc:mysql://localhost:3306/hello_mysql?createDatabaseIfNotExist=true&amp;verifyServerCertificate=false&amp;useSSL=false&amp;requireSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</url>
+                            <url>jdbc:mysql://localhost:3306/hello_mysql?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false</url>
                             <username>root</username>
-                            <password>12121988Andr</password>
-                            <driver>com.mysql.cj.jdbc.Driver</driver>
+                            <password>root</password>
+                            <driver>com.mysql.jdbc.Driver</driver>
                         </configuration>
                     </execution>
                 </executions>
@@ -105,15 +105,14 @@
                         <phase>process-sources</phase>
                         <configuration>
                             <changeLogFile>src\main\resources\changelog.xml</changeLogFile>
-                            <url>jdbc:mysql://localhost:3306/hello_mysql_junit?createDatabaseIfNotExist=true&amp;verifyServerCertificate=false&amp;useSSL=false&amp;requireSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</url>
+                            <url>jdbc:mysql://localhost:3306/hello_mysql_junit?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false</url>
                             <username>root</username>
-                            <password>12121988Andr</password>
-                            <driver>com.mysql.cj.jdbc.Driver</driver>
+                            <password>root</password>
+                            <driver>com.mysql.jdbc.Driver</driver>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
     </build>
 </project>
